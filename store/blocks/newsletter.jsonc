@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#newsletter": {
+        "children": [
+          "flex-layout.col#space",
+          "flex-layout.col#newsletter",
+          "flex-layout.col#space"
+        ]
+      },
+      "flex-layout.col#space": {
+
+      },
+      "flex-layout.col#newsletter": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "newsletter-form"
+        ]
+      },
+      "newsletter-form": {
+        "props": {
+          "SuccessState": "rich-text#confirmation"
+        },
+        "children": [
+          "newsletter-input-name",
+          "newsletter-input-email",
+          "newsletter-input-phone",
+          "newsletter-checkbox-confirmation",
+          "newsletter-submit"
+        ]
+      },
+      "rich-text#confirmation": {
+        "props": {
+          "text": "Inscrição realizada com sucesso. Obrigada!",
+          "blockClass": "subscriptionConfirmation",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "textColor": "c-on-action-secondary",
+          "font": "t-heading-6"
+        }
+      },
+      "newsletter-input-email": {
+        "props": {
+          "placeholderText": "seunome@email.com"
+        }
+      }
+}

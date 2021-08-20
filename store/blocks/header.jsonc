@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -14,7 +20,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -22,7 +30,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "main-header-desktop"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -42,14 +51,16 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/img/yoshop-logo.png",
+      "width": "150"
     }
   },
   "header-layout.mobile": {
@@ -61,7 +72,7 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
+      "flex-layout.col#logo-mobile",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -74,6 +85,16 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": [
+
+    ]
+  },
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
   }
 }

@@ -1,0 +1,28 @@
+.searchBarContainer {
+    width: 500px;
+}
+
+.imageElement--promoImg {
+    width: 93%;
+    border-radius: 40px;
+}
+
+.discountInsideContainer {
+    color: #303030;
+}
+
+.carouselGaleryThumbs, .carouselGaleryCursor {
+    /* background-color: white; */
+}
+
+.productBrand {
+    color: #303030;
+}
+
+.sellingPrice, .sellingPriceContainer, .price_sellingPriceContainer {
+    color: #303030;
+}
+
+.savingPriceValue, .price_savings {
+    color: greenyellow;
+}

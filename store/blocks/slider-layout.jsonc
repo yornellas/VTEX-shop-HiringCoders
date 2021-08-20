@@ -1,0 +1,44 @@
+{
+  "slider-layout#home": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel",
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": true
+        }
+    },
+    "children": [
+        "image#promo1", 
+        "image#promo2", 
+        "image#promo3"
+    ]
+  },
+  "image#promo1": {
+      "props": {
+        "isFullModeStyle": true,
+        "src": "assets/img/banner-sale-blackfriday.jpeg",
+        "blockClass": "promoImg"
+      }
+  },
+  "image#promo2": {
+    "props": {
+      "isFullModeStyle": true,
+      "src": "assets/img/banner-ps5.jpeg",
+      "blockClass": "promoImg"
+    }
+  },
+    "image#promo3": {
+        "props": {
+          "isFullModeStyle": true,
+          "src": "assets/img/free-shipping.jpeg",
+          "blockClass": "promoImg"
+        }
+    }
+}

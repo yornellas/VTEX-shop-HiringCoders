@@ -1,0 +1,112 @@
+{
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+          ],
+          "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "appliances"
+          }
+        },
+        "tab-list#home": {
+          "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2",
+            "tab-list.item#home3",
+            "tab-list.item#home4",
+            "tab-list.item#home5"
+          ],
+          "props": {
+            "blockClass": "categories"
+          }
+        },
+        "tab-list.item#home1": {
+          "props": {
+            "tabId": "appliances",
+            "label": "Eletrodomésticos",
+            "defaultActiveTab": true
+          }
+        },
+        "tab-list.item#home2": {
+          "props": {
+            "tabId": "computers",
+            "label": "Computadores"
+          }
+        },
+        "tab-list.item#home3": {
+          "props": {
+            "tabId": "photo",
+            "label": "Fotografia"
+          }
+        },
+        "tab-list.item#home4": {
+          "props": {
+            "tabId": "games",
+            "label": "Video-Games"
+          }
+        },
+        "tab-list.item#home5": {
+          "props": {
+            "tabId": "upmedal",
+            "label": "UpMedal"
+          }
+        },
+        "tab-content#home": {
+          "children": [
+            "tab-content.item#home1",
+            "tab-content.item#home2",
+            "tab-content.item#home3",
+            "tab-content.item#home4",
+            "tab-content.item#home5"
+          ]
+        },
+        "tab-content.item#home1": {
+          "children": [
+          ],
+          "props": {
+            "tabId": "appliances"
+          }
+        },
+        "tab-content.item#home2": {
+          "children": [
+      
+          ],
+          "props": {
+            "tabId": "computers"
+          }
+        },
+        "tab-content.item#home3": {
+          "children": [
+            "rich-text#question"
+          ],
+          "props": {
+            "tabId": "photo"
+          }
+        },
+        "rich-text#question": {
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Fotografia**",
+            "textColor": "c-on-action-secondary",
+            "font": "t-heading-5"
+          }
+        },
+        "tab-content.item#home4": {
+          "children": [
+      
+          ],
+          "props": {
+            "tabId": "games"
+          }
+        },
+        "tab-content.item#home5": {
+          "children": [
+      
+          ],
+          "props": {
+            "tabId": "upmedal"
+          }
+        }
+}

@@ -1,0 +1,14 @@
+.emailInputContainer, .nameInputContainer, .phoneInputContainer, .confirmationCheckboxContainer {
+    margin-bottom: 6px;
+}
+
+.formSubmitContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    width: 200px;
+}
