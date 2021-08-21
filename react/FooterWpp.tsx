@@ -33,6 +33,7 @@ function FooterWpp() {
       <div className="flex flex-column items-center mh6 white-50">
         <a
           href="https://api.whatsapp.com/send?phone=5531996065135&text=Ol%C3%A1%2C%20gostaria%20de%20suporte%20relacionado%20a%20"
+          target="_blank"
           className="grow-large"
         >
           <img
